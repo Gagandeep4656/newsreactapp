@@ -43,3 +43,27 @@
         }
     ]
 }
+
+
+
+
+
+
+
+<Route path="/business"><News pageSize={6} country="in" category="Business"/> </Route>
+<Route path="/entertainment"><News pageSize={6} country="in" category="Entertainment"/> </Route>
+<Route path="/general"><News pageSize={6} country="in" category="General"/> </Route>
+<Route path="/health"><News pageSize={6} country="in" category="Health"/> </Route>
+<Route path="/science"><News pageSize={6} country="in" category="Science"/> </Route>
+<Route path="/sports"><News pageSize={6} country="in" category="Sports"/> </Route>
+<Route path="/technology"><News pageSize={6} country="in" category="Technology"/> </Route>
+
+<Route path="/"><News pageSize={6} country="in" category="sports"/> </Route>
+Business
+Entertainment
+General
+Health
+Science
+Sports
+Technology
+1344ccd2a4744fb6986c673ef5b6e9ba
